@@ -4,25 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <style>
-      #p1{
-        color: blue;
-        text-align: center;
+      #dti1 {
+        color: red;
+        font-size: 3rem; /* 1 rem = 16px*/
+        font-weight: bold;
+        text-decoration: underline 2px blue wavy dashed;
+        text-align: right;
+        font-family: "Itim";
       }
-      #p2{
-        color: rgb(27, 227, 27);
+      .sau1{
+        font-family: "Kanit";
+      }
+      h1{
+        background-color: yellow;
+        border: 2px solid red;
+        padding-bottom: 50px;
+      }
+      span{
+        background-color: greenyellow;
         text-align: center;
+        border: 4px dotted blue;
+        padding: 5px  20px
+      }
+      p{
+        background-color: pink;
+        text-align: center;
+        border: 4px solid green;
+        border-radius: 40px;
+        padding: 20px;
+      }
+      #dti2{
+        margin-top: 100px;
+        margin-bottom: 50px;
+      }
+      p{
+        margin: 0px 50px; /*บน-ล่าง   ซ้าย-ขวา*/
+      }
+      #dti4{
+        border: 2px solid red;
+        margin: 5px 50px 150px 80px; /*บน ขวา ล่าง ซ้าย*/
       }
     </style>
-    <link rel="stylesheet" href="./css/style04.css">
   </head>
  
   <body>
-    <!-- CSS: Mix Style -->
-    <h1 style="text-align: center;color: red;">Welcome to DTI-SAU (04)</h1>
-    <h1 style="text-align: center;color: red;"">สวัสดีชาวโลก</h1>
-    <h3 id="p1">MY ID: 69XXXXXXXXXXXXX</h3>
-    <h3 id="p2">MY NAME: Chanintorn Chalermsuk</h3>
+    <h1 id="dti1">Welcome to DTI-SAU (13)</h1>
+    <h1 id="dti2" class="sau1">สวัสดีชาวโลก</h1>
+    <h3 id="dti3">MY ID: 69XXXXXXXXXXXXX</h3>
+    <h3 id="dti4" class="sau1">MY NAME: ชนินทร เฉลิมสุข</h3>
     <hr />
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi officia ut,
@@ -50,4 +86,3 @@
     </div>
   </body>
 </html>
- 
